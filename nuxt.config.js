@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['~/plugins/vuetify'],
   /*
   ** Headers of the page
   */
@@ -21,6 +22,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ['vuetify'],
     /*
     ** Run ESLint on save
     */
