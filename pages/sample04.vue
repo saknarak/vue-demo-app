@@ -5,7 +5,7 @@
     <input type="text" :value="name"><br>
     <input type="text" v-model="name"><br>
     <input type="text" v-model="name"><br>
-    <v-btn @click="doSave"><v-icon>favorite</v-icon> SAVE</v-btn>
+    <v-btn color="success" @click="doSave"><v-icon>favorite</v-icon> SAVE</v-btn>
   </div>
 </template>
 <script>

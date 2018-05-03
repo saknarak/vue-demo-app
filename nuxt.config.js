@@ -1,4 +1,11 @@
 module.exports = {
+  mode: 'spa',
+  render: {
+    resourceHints: false,
+  },
+  router: {
+    mode: 'hash',
+  },
   plugins: ['~/plugins/vuetify'],
   /*
   ** Headers of the page

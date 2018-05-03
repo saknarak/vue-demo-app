@@ -1,5 +1,5 @@
 <template>
-<v-app id="inspire" dark>
+  <v-app id="inspire" dark>
     <v-navigation-drawer
       clipped
       fixed
@@ -37,6 +37,15 @@
     </v-footer>
   </v-app>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      drawer: false,
+    }
+  }
+}
+</script>
 
 <style>
 html {
